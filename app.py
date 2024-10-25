@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy_utils import create_engine
 import os
 
 # Create a SQLite database connection
